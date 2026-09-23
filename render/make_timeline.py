@@ -1,6 +1,7 @@
 import json, os, re
 
-base = r"C:\Users\13122\WorkBuddy\2026-07-14-08-06-33\ling-train"
+base = os.environ.get("LING_TRAIN_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 仓根：环境变量 LING_TRAIN_ROOT 覆盖，否则由本脚本所在 render/ 上溯推导（去本地化，原硬编码绝对路径已失效）
 pack = json.load(open(base + "\\phase2_production_pack.json", encoding="utf-8"))
 render = base + "\\render"
 audio_dir = render + "\\audio"
