@@ -37,7 +37,7 @@ python ling-cinema/ling-cinema-v2/generate_audio.py
 1. 仓库内新建 `ling-cinema/<新代目录>/`，脚本路径一律随仓库推导（`os.path.dirname(os.path.abspath(__file__))`，禁止写死绝对路径）；
 2. 成片进仓（单文件 <100MB），中间产物与原始素材继续走 .gitignore；
 3. 在本文「三代迭代」表追加一行谱系，按 Keep a Changelog 记一笔；
-4. 如需平台「启动」指向新代，更新 `G:\platform\registry\projects\ling-train.yaml` 的 launch；
+4. 如需平台「启动」指向新代，更新 `<PATH>` 的 launch；
 5. commit + push（先 `git ls-remote` 核对默认分支）。
 
 ## 测试状态
