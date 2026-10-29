@@ -1,3 +1,8 @@
+> 📦 **已归档（Archived — 仅作参考）**
+> 本仓库已收入归档仓 **media-prototypes**（代码与完整 git 历史一并迁入，原仓冻结不再开发）。
+> 历史分支见归档仓的 `archive/ling-train` 分支；活跃维护请前往 **media-prototypes**。
+> _This repo is archived into media-prototypes; development continues there. Do not commit here._
+
 # ling-train ——《火车进站》主题短视频自动化制作流水线（三代迭代）
 
 围绕《火车进站》（电影史）主题的短视频自动化制作流水线。本仓库实际承载**三代迭代项目**（历史遗留，2026-08-28 收口入库）：
